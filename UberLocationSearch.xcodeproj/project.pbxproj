@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24FDFCA2F61DBD85600E894F /* Pods_UberLocationSearch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A39849234FCA82336FB0FD02 /* Pods_UberLocationSearch.framework */; };
 		677613D125FAB75A00BA1060 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677613D025FAB75A00BA1060 /* AppDelegate.swift */; };
 		677613D325FAB75A00BA1060 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677613D225FAB75A00BA1060 /* SceneDelegate.swift */; };
 		677613D525FAB75A00BA1060 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677613D425FAB75A00BA1060 /* ViewController.swift */; };
 		677613D825FAB75A00BA1060 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 677613D625FAB75A00BA1060 /* Main.storyboard */; };
 		677613DA25FAB75D00BA1060 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 677613D925FAB75D00BA1060 /* Assets.xcassets */; };
 		677613DD25FAB75D00BA1060 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 677613DB25FAB75D00BA1060 /* LaunchScreen.storyboard */; };
+		677613E625FB032700BA1060 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677613E525FB032700BA1060 /* LocationManager.swift */; };
+		677613E925FB042D00BA1060 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677613E825FB042D00BA1060 /* SearchViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5C7C8B45FF8D204337E204A7 /* Pods-UberLocationSearch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UberLocationSearch.debug.xcconfig"; path = "Target Support Files/Pods-UberLocationSearch/Pods-UberLocationSearch.debug.xcconfig"; sourceTree = "<group>"; };
 		677613CD25FAB75A00BA1060 /* UberLocationSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UberLocationSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		677613D025FAB75A00BA1060 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		677613D225FAB75A00BA1060 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +28,10 @@
 		677613D925FAB75D00BA1060 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		677613DC25FAB75D00BA1060 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		677613DE25FAB75D00BA1060 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		677613E525FB032700BA1060 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		677613E825FB042D00BA1060 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		A39849234FCA82336FB0FD02 /* Pods_UberLocationSearch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UberLocationSearch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F15F0C859628748ED96CBC6E /* Pods-UberLocationSearch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UberLocationSearch.release.xcconfig"; path = "Target Support Files/Pods-UberLocationSearch/Pods-UberLocationSearch.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24FDFCA2F61DBD85600E894F /* Pods_UberLocationSearch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +51,8 @@
 			children = (
 				677613CF25FAB75A00BA1060 /* UberLocationSearch */,
 				677613CE25FAB75A00BA1060 /* Products */,
+				B4DB0D7660C4B2E5039A7C9B /* Pods */,
+				7CB702D4682AF2EEA004C0F4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +69,8 @@
 			children = (
 				677613D025FAB75A00BA1060 /* AppDelegate.swift */,
 				677613D225FAB75A00BA1060 /* SceneDelegate.swift */,
+				677613E525FB032700BA1060 /* LocationManager.swift */,
+				677613E825FB042D00BA1060 /* SearchViewController.swift */,
 				677613D425FAB75A00BA1060 /* ViewController.swift */,
 				677613D625FAB75A00BA1060 /* Main.storyboard */,
 				677613D925FAB75D00BA1060 /* Assets.xcassets */,
@@ -67,6 +80,24 @@
 			path = UberLocationSearch;
 			sourceTree = "<group>";
 		};
+		7CB702D4682AF2EEA004C0F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A39849234FCA82336FB0FD02 /* Pods_UberLocationSearch.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B4DB0D7660C4B2E5039A7C9B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5C7C8B45FF8D204337E204A7 /* Pods-UberLocationSearch.debug.xcconfig */,
+				F15F0C859628748ED96CBC6E /* Pods-UberLocationSearch.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +105,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 677613E125FAB75D00BA1060 /* Build configuration list for PBXNativeTarget "UberLocationSearch" */;
 			buildPhases = (
+				5ABF3341DFD93965F16E769F /* [CP] Check Pods Manifest.lock */,
 				677613C925FAB75A00BA1060 /* Sources */,
 				677613CA25FAB75A00BA1060 /* Frameworks */,
 				677613CB25FAB75A00BA1060 /* Resources */,
+				7E5E55625CFC8C7CCF0A5A10 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,11 +165,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5ABF3341DFD93965F16E769F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UberLocationSearch-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E5E55625CFC8C7CCF0A5A10 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UberLocationSearch/Pods-UberLocationSearch-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UberLocationSearch/Pods-UberLocationSearch-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UberLocationSearch/Pods-UberLocationSearch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		677613C925FAB75A00BA1060 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				677613E925FB042D00BA1060 /* SearchViewController.swift in Sources */,
+				677613E625FB032700BA1060 /* LocationManager.swift in Sources */,
 				677613D525FAB75A00BA1060 /* ViewController.swift in Sources */,
 				677613D125FAB75A00BA1060 /* AppDelegate.swift in Sources */,
 				677613D325FAB75A00BA1060 /* SceneDelegate.swift in Sources */,
@@ -283,6 +360,7 @@
 		};
 		677613E225FAB75D00BA1060 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C7C8B45FF8D204337E204A7 /* Pods-UberLocationSearch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +380,7 @@
 		};
 		677613E325FAB75D00BA1060 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F15F0C859628748ED96CBC6E /* Pods-UberLocationSearch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
